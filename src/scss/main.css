@@ -60,4 +60,17 @@ table {
 a {
   text-decoration: none; }
 
+.main {
+  display: flex;
+  flex-direction: column; }
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem; }
+
+.top-screen {
+  height: 100vh;
+  background-image: url("../images/mountains.png"); }
+
 /*# sourceMappingURL=main.css.map */
