@@ -7,7 +7,7 @@ function App() {
       <main className="main">
         <div className="top-screen">
           <header className="header">
-            <img src={logo}/>
+            <img src={logo} alt="logo"/>
           </header>
 
         </div>
