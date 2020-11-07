@@ -62,7 +62,8 @@ a {
 
 .main {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  background-color: black; }
 
 .header {
   position: absolute;
@@ -77,5 +78,17 @@ a {
 .top-screen {
   height: 100vh;
   background-image: url("../images/mountains.png"); }
+
+.what-we-do {
+  display: flex;
+  flex-direction: column; }
+  .what-we-do__header {
+    color: green; }
+  .what-we-do__content {
+    color: white; }
+
+@media only screen and (min-width: 400px) {
+  .what-we-do {
+    flex-direction: row; } }
 
 /*# sourceMappingURL=main.css.map */

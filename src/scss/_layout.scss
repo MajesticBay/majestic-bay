@@ -1,6 +1,7 @@
 .main {
     display: flex;
     flex-direction: column;
+    background-color: black;
 }
 
 .header {
@@ -17,4 +18,23 @@
 .top-screen {
     height: 100vh;
     background-image: url("../images/mountains.png");
+}
+
+.what-we-do {
+    display: flex;
+    flex-direction: column;
+
+    &__header {
+        color: green;
+    }
+
+    &__content {
+        color: white;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    .what-we-do {
+        flex-direction: row;
+    }
 }
