@@ -60,6 +60,10 @@ table {
 a {
   text-decoration: none; }
 
+:root {
+  --color-primary: #0A171B;
+  --color-secondary: #24E5FF; }
+
 .main {
   display: flex;
   flex-direction: column;
