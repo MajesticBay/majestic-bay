@@ -4,11 +4,12 @@ import "./scss/main.css";
 function App() {
   return (
     <>
+      <header className="header">
+        <img src={logo} alt="logo"/>
+      </header>
       <main className="main">
         <div className="top-screen">
-          <header className="header">
-            <img src={logo} alt="logo"/>
-          </header>
+          
 
         </div>
       </main>
