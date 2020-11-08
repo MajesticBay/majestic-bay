@@ -1,4 +1,6 @@
 import logo from "./images/majestic-bay.svg";
+import whatWeDo from "./images/what-we-do.svg";
+// import ourTeam from "./images/our-team.svg";
 import "./scss/main.css";
 
 function App() {
@@ -11,7 +13,7 @@ function App() {
         <div className="top-screen">
         </div>
         <div className="what-we-do">
-          <h1 className="what-we-do__header">WHAT WE DO?</h1>
+          <img className="img-fluid what-we-do__img-header" src={whatWeDo} alt="what we do"/>
           <p className="what-we-do__content">We successfully solve business problems through design and code</p>
         </div>
       </main>

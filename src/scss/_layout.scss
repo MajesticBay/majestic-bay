@@ -1,7 +1,8 @@
 .main {
     display: flex;
     flex-direction: column;
-    background-color: black;
+    align-items: center;
+    background-color: var(--color-primary);
 }
 
 .header {
@@ -17,6 +18,7 @@
 
 .top-screen {
     height: 100vh;
+    width: 100%;
     background-image: url("../images/mountains.png");
 }
 
@@ -24,17 +26,36 @@
     display: flex;
     flex-direction: column;
 
-    &__header {
-        color: green;
-    }
+    // &__header {
+    //     color: var(--color-secondary);
+    //     font-size: 9.3rem;
+    // }
 
     &__content {
-        color: white;
+        margin-top: 2rem;
+        color: var(--color-white);
+        font-size: 3rem;
+        width: 300px;
     }
 }
 
 @media only screen and (min-width: 400px) {
     .what-we-do {
         flex-direction: row;
+        align-items: center;
+        // margin-top: 1rem;
+
+        &__img-header {
+            width: 357px;
+            height: 140px;
+        }
+
+        &__content {
+            margin-top: 0;
+            margin-left: 1rem;
+            font-size: 3.5rem;
+            line-height: 42.36px;
+            width: 500px;
+        }
     }
 }
