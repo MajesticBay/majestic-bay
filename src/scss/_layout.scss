@@ -23,26 +23,29 @@
 }
 
 .what-we-do {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    // flex-direction: column;
+    margin: 2rem 1rem;
 
-    // &__header {
-    //     color: var(--color-secondary);
-    //     font-size: 9.3rem;
-    // }
+    &__img-header {
+        width: 260px;
+        // height: 140px;
+    }
 
     &__content {
-        margin-top: 2rem;
         color: var(--color-white);
-        font-size: 3rem;
+        font-size: 2.5rem;
         width: 300px;
     }
 }
 
 @media only screen and (min-width: 400px) {
     .what-we-do {
-        flex-direction: row;
-        align-items: center;
+        margin: 6rem 0;
+        grid-template-columns: repeat(2, minmax(350px, 1fr));
+        gap: 50px;
+        // flex-direction: row;
+        // align-items: center;
         // margin-top: 1rem;
 
         &__img-header {

@@ -13,7 +13,7 @@ function App() {
         <div className="top-screen">
         </div>
         <div className="what-we-do">
-          <img className="img-fluid what-we-do__img-header" src={whatWeDo} alt="what we do"/>
+          <img className="what-we-do__img-header" src={whatWeDo} alt="what we do"/>
           <p className="what-we-do__content">We successfully solve business problems through design and code</p>
         </div>
       </main>

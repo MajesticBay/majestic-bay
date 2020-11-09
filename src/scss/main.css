@@ -91,18 +91,20 @@ a {
   background-image: url("../images/mountains.png"); }
 
 .what-we-do {
-  display: flex;
-  flex-direction: column; }
+  display: grid;
+  margin: 2rem 1rem; }
+  .what-we-do__img-header {
+    width: 260px; }
   .what-we-do__content {
-    margin-top: 2rem;
     color: var(--color-white);
-    font-size: 3rem;
+    font-size: 2.5rem;
     width: 300px; }
 
 @media only screen and (min-width: 400px) {
   .what-we-do {
-    flex-direction: row;
-    align-items: center; }
+    margin: 6rem 0;
+    grid-template-columns: repeat(2, minmax(350px, 1fr));
+    gap: 50px; }
     .what-we-do__img-header {
       width: 357px;
       height: 140px; }
