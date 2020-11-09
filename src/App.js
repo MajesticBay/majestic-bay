@@ -1,3 +1,4 @@
+import Line from "./Line";
 import logo from "./images/majestic-bay.svg";
 import whatWeDo from "./images/what-we-do.svg";
 // import ourTeam from "./images/our-team.svg";
@@ -16,6 +17,7 @@ function App() {
           <img className="what-we-do__img-header" src={whatWeDo} alt="what we do"/>
           <p className="what-we-do__content">We successfully solve business problems through design and code</p>
         </div>
+        <Line/>
       </main>
     </>
   );

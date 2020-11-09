@@ -100,6 +100,17 @@ a {
     font-size: 2.5rem;
     width: 300px; }
 
+.line {
+  width: 100%;
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  overflow: hidden;
+  white-space: nowrap;
+  overflow-y: hidden; }
+  .line__text {
+    font-size: 34px;
+    padding: 0 1rem; }
+
 @media only screen and (min-width: 400px) {
   .what-we-do {
     margin: 6rem 0;
