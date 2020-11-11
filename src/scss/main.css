@@ -106,9 +106,21 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%; }
+  width: 100%;
+  position: relative; }
   .main-content__bg {
-    background-image: url("../images/forest.png"); }
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/forest.png");
+    mix-blend-mode: overlay; }
+  .main-content__story {
+    width: 80%;
+    color: var(--color-white);
+    font-size: 35px;
+    margin: 2rem 0; }
+    .main-content__story--blue {
+      color: var(--color-secondary); }
 
 .what-we-do {
   display: grid;
@@ -144,6 +156,7 @@ a {
     padding: 0; }
 
   .what-we-do {
+    width: 80%;
     margin: 6rem 0;
     grid-template-columns: repeat(2, minmax(350px, 1fr));
     gap: 50px; }
@@ -155,6 +168,10 @@ a {
       margin-left: 1rem;
       font-size: 3.5rem;
       line-height: 46px;
-      width: 500px; } }
+      width: 500px; }
+
+  .main-content__story {
+    margin: 5rem 0;
+    line-height: 42.36px; } }
 
 /*# sourceMappingURL=main.css.map */
