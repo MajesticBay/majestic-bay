@@ -47,10 +47,20 @@
     white-space: nowrap;
     // overflow-x: auto;
     overflow-y: hidden;
+    padding: 1rem 0;
+
+    &--dark {
+        background-color: var(--color-primary);
+        color: var(--color-secondary);
+    }
 
     &__text {
         font-size: 34px;
         padding: 0 1rem;
+    }
+
+    &__text--bold {
+        font-weight: bold;
     }
 }
 

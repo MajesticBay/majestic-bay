@@ -17,7 +17,9 @@ function App() {
           <img className="what-we-do__img-header" src={whatWeDo} alt="what we do"/>
           <p className="what-we-do__content">We successfully solve business problems through design and code</p>
         </div>
-        <Line/>
+        <Line />
+        <Line color={"--dark"}/>
+        <Line />
       </main>
     </>
   );
