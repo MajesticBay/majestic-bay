@@ -88,7 +88,27 @@ a {
 .top-screen {
   height: 100vh;
   width: 100%;
-  background-image: url("../images/mountains.png"); }
+  background-image: url("../images/mountains.png");
+  margin-bottom: 18rem; }
+  .top-screen__macbook {
+    display: flex;
+    justify-content: center;
+    margin-top: 18rem;
+    background-image: url("../images/macbook.png");
+    background-position: center top; }
+  .top-screen__we-code-img {
+    width: 100%;
+    height: auto;
+    margin-top: 18rem;
+    padding: 2rem; }
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; }
+  .main-content__bg {
+    background-image: url("../images/forest.png"); }
 
 .what-we-do {
   display: grid;
@@ -119,6 +139,10 @@ a {
     font-weight: bold; }
 
 @media only screen and (min-width: 400px) {
+  .top-screen__we-code-img {
+    width: auto;
+    padding: 0; }
+
   .what-we-do {
     margin: 6rem 0;
     grid-template-columns: repeat(2, minmax(350px, 1fr));
