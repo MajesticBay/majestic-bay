@@ -5,7 +5,7 @@
     background-color: var(--color-primary);
 }
 
-.header {
+.header-container {
     position: absolute;
     left: 0;
     right: 0;
@@ -14,6 +14,19 @@
     padding-top: 3rem;
     margin-left: auto;
     margin-right: auto;
+}
+
+.header {
+    color: var(--color-secondary);
+    font-size: 93px;
+    line-height: 61px;
+}
+
+.header-description {
+    color: var(--color-white);
+    font-size: 2.5rem;
+    width: 300px;
+    margin-top: 2rem;
 }
 
 .top-screen {
@@ -77,12 +90,12 @@
         // height: 140px;
     }
 
-    &__content {
-        color: var(--color-white);
-        font-size: 2.5rem;
-        width: 300px;
-        margin-top: 2rem;
-    }
+    // &__content {
+    //     color: var(--color-white);
+    //     font-size: 2.5rem;
+    //     width: 300px;
+    //     margin-top: 2rem;
+    // }
 }
 
 .line {
@@ -110,7 +123,44 @@
     }
 }
 
+.our-works {
+    display: grid;
+    gap: 2rem;
+
+    &__content {
+        color: var(--color-white);
+        font-size: 2.5rem;
+        width: 300px;
+        margin-top: 2rem;
+    }
+}
+
+.project {
+    &__header {
+        margin-top: 1.4rem;
+        color: var(--color-white);
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 65.52%;
+    }
+
+    &__description {
+        margin-top: 2.2rem;
+        color: var(--color-white);
+        font-size: 24px;
+        line-height: 29px;
+    }
+}
+
 @media only screen and (min-width: 400px) {
+    .header-description {
+        margin-top: 0;
+        margin-left: 1rem;
+        font-size: 3.5rem;
+        line-height: 46px;
+        width: 500px;
+    }
+
     .top-screen {
         &__we-code-img {
             width: auto;
@@ -145,6 +195,21 @@
         &__story {
             margin: 5rem 0;
             line-height: 42.36px;
+        }
+    }
+
+    .our-works {
+        width: 80%;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 5rem;
+        row-gap: 9rem;
+
+        &__content {
+            margin-top: 0;
+            margin-left: 1rem;
+            font-size: 3.5rem;
+            line-height: 46px;
+            width: 500px;
         }
     }
 }
