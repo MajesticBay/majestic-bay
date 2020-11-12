@@ -179,6 +179,11 @@ a {
   font-size: 24px;
   line-height: 29px; }
 
+.our-team {
+  display: grid;
+  gap: 2rem;
+  margin: 10rem 2rem 4rem 2rem; }
+
 @media only screen and (min-width: 400px) {
   .header-description {
     margin-top: 0;
@@ -221,6 +226,13 @@ a {
       margin-left: 1rem;
       font-size: 3.5rem;
       line-height: 46px;
-      width: 500px; } }
+      width: 500px; }
+
+  .our-team {
+    width: 80%;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5rem;
+    row-gap: 9rem;
+    margin: 20rem 2rem 4rem 2rem; } }
 
 /*# sourceMappingURL=main.css.map */

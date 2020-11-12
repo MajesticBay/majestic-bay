@@ -79,6 +79,10 @@ function App() {
               <p className="project__description">Corporate style and template of an online store for a construction company or a spare parts store.</p>
             </div>
           </div>
+          <div className="our-team">
+            <h1 className="header">our<br/>team</h1>
+            <p className="header-description">We are excellent experts. We are excellent experts. We are excellent experts.</p>
+          </div>
         </div>
       </main>
     </>

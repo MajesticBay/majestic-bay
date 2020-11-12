@@ -154,6 +154,13 @@
     }
 }
 
+.our-team {
+    display: grid;
+    gap: 2rem;
+    margin: 10rem 2rem 4rem 2rem;
+    // margin: 2rem 4rem;
+}
+
 @media only screen and (min-width: 400px) {
     .header-description {
         margin-top: 0;
@@ -214,5 +221,13 @@
             line-height: 46px;
             width: 500px;
         }
+    }
+
+    .our-team {
+        width: 80%;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 5rem;
+        row-gap: 9rem;
+        margin: 20rem 2rem 4rem 2rem;
     }
 }
