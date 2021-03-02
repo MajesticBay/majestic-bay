@@ -1,4 +1,6 @@
 import weCode from "../images/we-code.png";
+// import macbook from "./images/macbook.png";
+// import ourTeam from "./images/our-team.svg";
 
 export const TopScreen = () => (
     <div className="top-screen">
