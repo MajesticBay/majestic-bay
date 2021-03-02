@@ -1,9 +1,10 @@
 import { Header } from './components/Header';
 import { TopScreen } from './components/TopScreen';
 import { WhatWeDo } from './components/WhatWeDo';
+import { MovingLines } from './components/MovingLines';
 import { OurTeam } from './components/OurTeam';
 import { OurWorks } from './components/OurWorks';
-import Line from "./Line";
+import Line from "./components/Line";
 // import macbook from "./images/macbook.png";
 // import ourTeam from "./images/our-team.svg";
 import "./scss/main.css";
@@ -22,9 +23,7 @@ function App() {
         <Line color={"--dark"}/>
         <Line /> */}
         <WhatWeDo />
-        <Line />
-        <Line color={"--dark"}/>
-        <Line />
+        <MovingLines />
         <div className="main-content">
           <div className="main-content__bg">
             <div className="main-content__story">

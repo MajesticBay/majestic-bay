@@ -12,5 +12,3 @@ export const Line = ({color}) => (
         <span className="line__text"><span className="line__text--bold">UX</span> Research</span>
     </div>
 )
-
-export default Line;
