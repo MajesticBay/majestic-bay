@@ -1,4 +1,11 @@
 @import "reset";
 @import "variables";
 @import "components";
-@import "layout";
+
+@import "layout/header";
+@import "layout/layout";
+@import "layout/line";
+@import "layout/our-team";
+@import "layout/our-works";
+@import "layout/top-screen";
+@import "layout/what-we-do";
