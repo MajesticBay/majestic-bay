@@ -58,9 +58,12 @@
     align-items: center;
     width: 100%;
     position: relative;
+    // background-image: url("../images/forest.png");
+    // background-repeat: no-repeat;
+    // mix-blend-mode: overlay;
 
     &__bg {
-        position: absolute;
+        // position: absolute;
         height: 100%;
         width: 100%;
         background-image: url("../images/forest.png");
@@ -85,6 +88,7 @@
     // flex-direction: column;
     // margin: 15rem 1rem 2rem 1rem;
     margin: 1rem 1rem 4rem 1rem;
+    background: transparent;
 
     &__img-header {
         width: 260px;
