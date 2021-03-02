@@ -83,20 +83,6 @@ a {
   height: auto;
 }
 
-.main {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: var(--color-primary);
-}
-
 .header-container {
   position: absolute;
   left: 0;
@@ -125,30 +111,28 @@ a {
   margin-top: 2rem;
 }
 
-.top-screen {
-  height: 100vh;
-  width: 100%;
-  background-image: url("../images/mountains.png");
-  margin-bottom: 18rem;
+@media only screen and (min-width: 400px) {
+  .header-description {
+    margin-top: 0;
+    margin-left: 1rem;
+    font-size: 3.5rem;
+    line-height: 46px;
+    width: 500px;
+  }
 }
 
-.top-screen__macbook {
+.main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 18rem;
-  background-image: url("../images/macbook.png");
-  background-position: center top;
-}
-
-.top-screen__we-code-img {
-  width: 100%;
-  height: auto;
-  margin-top: 18rem;
-  padding: 2rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: var(--color-primary);
 }
 
 .main-content {
@@ -257,17 +241,6 @@ a {
 }
 
 @media only screen and (min-width: 400px) {
-  .header-description {
-    margin-top: 0;
-    margin-left: 1rem;
-    font-size: 3.5rem;
-    line-height: 46px;
-    width: 500px;
-  }
-  .top-screen__we-code-img {
-    width: auto;
-    padding: 0;
-  }
   .what-we-do {
     width: 80%;
     margin: 6rem 0;
@@ -314,6 +287,39 @@ a {
             column-gap: 5rem;
     row-gap: 9rem;
     margin: 20rem 2rem 4rem 2rem;
+  }
+}
+
+.top-screen {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../images/mountains.png");
+  margin-bottom: 18rem;
+}
+
+.top-screen__macbook {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 18rem;
+  background-image: url("../images/macbook.png");
+  background-position: center top;
+}
+
+.top-screen__we-code-img {
+  width: 100%;
+  height: auto;
+  margin-top: 18rem;
+  padding: 2rem;
+}
+
+@media only screen and (min-width: 400px) {
+  .top-screen__we-code-img {
+    width: auto;
+    padding: 0;
   }
 }
 /*# sourceMappingURL=main.css.map */
