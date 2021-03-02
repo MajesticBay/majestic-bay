@@ -27,7 +27,7 @@ const items = [
 ]
 
 export const Line = ({color}) => (
-    <div className={"line line" + color}>
+    <div className={"line " + (color ? `line${color}` : '')}>
         {items.map((item, i) => (
             <span className="line__text" key={i}>
                 {item.boldText ? <span className="line__text--bold">{item.boldText}</span> : null}
