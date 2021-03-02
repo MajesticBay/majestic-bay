@@ -5,6 +5,7 @@ import { MovingLines } from './components/MovingLines';
 import { Story } from './components/Story';
 import { OurTeam } from './components/OurTeam';
 import { OurWorks } from './components/OurWorks';
+import { Banner } from './components/Banner';
 import "./scss/main.css";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <OurWorks />
           </div>
           <OurTeam />
+          <Banner />
         </div>
       </main>
     </>
