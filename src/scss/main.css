@@ -169,71 +169,10 @@ a {
   color: var(--color-secondary);
 }
 
-.our-works {
-  display: -ms-grid;
-  display: grid;
-  gap: 2rem;
-  margin: 2rem 4rem;
-}
-
-.our-works__content {
-  color: var(--color-white);
-  font-size: 2.5rem;
-  width: 300px;
-  margin-top: 2rem;
-}
-
-.project__header {
-  margin-top: 1.4rem;
-  color: var(--color-white);
-  font-weight: 500;
-  font-size: 45px;
-  line-height: 65.52%;
-}
-
-.project__description {
-  margin-top: 2.2rem;
-  color: var(--color-white);
-  font-size: 24px;
-  line-height: 29px;
-}
-
-.our-team {
-  display: -ms-grid;
-  display: grid;
-  gap: 2rem;
-  margin: 10rem 2rem 4rem 2rem;
-}
-
 @media only screen and (min-width: 400px) {
   .main-content__story {
     margin: 5rem 0;
     line-height: 42.36px;
-  }
-  .our-works {
-    width: 80%;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    -webkit-column-gap: 5rem;
-            column-gap: 5rem;
-    row-gap: 9rem;
-    margin: 2rem 0;
-  }
-  .our-works__content {
-    margin-top: 0;
-    margin-left: 1rem;
-    font-size: 3.5rem;
-    line-height: 46px;
-    width: 500px;
-  }
-  .our-team {
-    width: 80%;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    -webkit-column-gap: 5rem;
-            column-gap: 5rem;
-    row-gap: 9rem;
-    margin: 20rem 2rem 4rem 2rem;
   }
 }
 
@@ -261,51 +200,22 @@ a {
   font-weight: bold;
 }
 
-.our-works {
+.our-team {
   display: -ms-grid;
   display: grid;
   gap: 2rem;
-  margin: 2rem 4rem;
-}
-
-.our-works__content {
-  color: var(--color-white);
-  font-size: 2.5rem;
-  width: 300px;
-  margin-top: 2rem;
-}
-
-.project__header {
-  margin-top: 1.4rem;
-  color: var(--color-white);
-  font-weight: 500;
-  font-size: 45px;
-  line-height: 65.52%;
-}
-
-.project__description {
-  margin-top: 2.2rem;
-  color: var(--color-white);
-  font-size: 24px;
-  line-height: 29px;
+  margin: 10rem 2rem 4rem 2rem;
 }
 
 @media only screen and (min-width: 400px) {
-  .our-works {
+  .our-team {
     width: 80%;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     -webkit-column-gap: 5rem;
             column-gap: 5rem;
     row-gap: 9rem;
-    margin: 2rem 0;
-  }
-  .our-works__content {
-    margin-top: 0;
-    margin-left: 1rem;
-    font-size: 3.5rem;
-    line-height: 46px;
-    width: 500px;
+    margin: 20rem 2rem 4rem 2rem;
   }
 }
 
