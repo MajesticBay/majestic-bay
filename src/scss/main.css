@@ -169,30 +169,6 @@ a {
   color: var(--color-secondary);
 }
 
-.line {
-  width: 100%;
-  background-color: var(--color-secondary);
-  color: var(--color-primary);
-  overflow: hidden;
-  white-space: nowrap;
-  overflow-y: hidden;
-  padding: 1rem 0;
-}
-
-.line--dark {
-  background-color: var(--color-primary);
-  color: var(--color-secondary);
-}
-
-.line__text {
-  font-size: 34px;
-  padding: 0 1rem;
-}
-
-.line__text--bold {
-  font-weight: bold;
-}
-
 .our-works {
   display: -ms-grid;
   display: grid;
@@ -259,6 +235,30 @@ a {
     row-gap: 9rem;
     margin: 20rem 2rem 4rem 2rem;
   }
+}
+
+.line {
+  width: 100%;
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  overflow: hidden;
+  white-space: nowrap;
+  overflow-y: hidden;
+  padding: 1rem 0;
+}
+
+.line--dark {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+}
+
+.line__text {
+  font-size: 34px;
+  padding: 0 1rem;
+}
+
+.line__text--bold {
+  font-weight: bold;
 }
 
 .top-screen {
