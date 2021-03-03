@@ -1,0 +1,17 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8.7rem 0;
+    width: 100%;
+    background-color: var(--color-secondary);
+
+    &__text {
+        max-width: 1030px;
+        font-size: 5.5rem;
+    }
+
+    &__btn {
+        margin-top: 5.3rem;
+    }
+}
