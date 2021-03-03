@@ -13,8 +13,8 @@ export const OurTeam = () => (
                     <h3 className="member__name">Mike</h3>
                     <p className="member__title">APP / UX / AR & Product Designer</p>
                 </div>
-                <p className="member__about"><span>From Mike:</span>For more than 7 years I have been helping brands develop their business through design. Visual support of the brand — my task. I like to work on projects from the start and use all my experience to do the job perfectly. </p>
-                <a href="#">contact Mike</a>
+                <p className="member__about"><span className="green">From Mike:</span>{'\u00A0'}For more than 7 years I have been helping brands develop their business through design.{'\u00A0'}<span className="italic">Visual support of the brand — my task.</span>{'\u00A0'}I like to work on projects from the start and use all my experience to do the job perfectly. </p>
+                <a className="member__contact" href="#">contact Mike</a>
             </div>
         </div>
     </div>
