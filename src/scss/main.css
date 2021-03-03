@@ -83,6 +83,10 @@ a {
   height: auto;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 .btn {
   padding: 1.2rem 6.8rem;
   font-size: 2rem;
