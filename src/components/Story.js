@@ -1,3 +1,5 @@
+import { Btn } from './Btn';
+
 export const Story = () => {
   return (
     <div className="story">
@@ -17,7 +19,7 @@ export const Story = () => {
         </span>{" "}
         and effective way.
       </p>
-      {/* ADD CONTACT US BUTTON */}
+      <Btn />
     </div>
   );
 };
