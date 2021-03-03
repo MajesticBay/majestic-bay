@@ -2,9 +2,9 @@ import logo from '../images/majestic-bay.svg';
 
 export const Footer = () => {
     return (
-        <div>
+        <div className="footer">
             <img src={logo} alt="logo" />
-            <p>© 2018–2021 Majestic Bay</p>
+            <p className="footer__text">© 2018–2021 Majestic Bay</p>
         </div>
     )
 }

@@ -25,6 +25,7 @@ function App() {
           <OurTeam />
         </div>
         <Banner />
+        <Footer />
       </main>
     </>
   );
