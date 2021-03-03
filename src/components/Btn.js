@@ -1,5 +1,5 @@
-export const Btn = () => {
+export const Btn = ({className}) => {
     return (
-        <button className="btn">Contact Us</button>
+        <button className={"btn " + className}>CONTACT US</button>
     )
 }
