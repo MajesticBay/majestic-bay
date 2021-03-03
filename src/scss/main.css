@@ -241,13 +241,18 @@ a {
 }
 
 .our-team {
-  display: -ms-grid;
-  display: grid;
-  gap: 2rem;
+  width: 100%;
   margin: 10rem 2rem 4rem 2rem;
 }
 
+.our-team__header-container {
+  display: -ms-grid;
+  display: grid;
+  gap: 2rem;
+}
+
 .our-team__members-container {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -255,6 +260,10 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.member {
+  width: 100%;
 }
 
 .member__top {
@@ -296,15 +305,25 @@ a {
   color: var(--color-white);
 }
 
+.member__about {
+  width: 100%;
+  font-size: 2.4rem;
+  font-style: italic;
+  line-height: 29.05px;
+  color: var(--color-white);
+}
+
 @media only screen and (min-width: 400px) {
   .our-team {
-    width: 80%;
+    max-width: 1170px;
+    margin: 20rem 2rem 4rem 2rem;
+  }
+  .our-team__header-container {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     -webkit-column-gap: 5rem;
             column-gap: 5rem;
     row-gap: 9rem;
-    margin: 20rem 2rem 4rem 2rem;
   }
 }
 
@@ -339,7 +358,7 @@ a {
 
 @media only screen and (min-width: 400px) {
   .our-works {
-    width: 80%;
+    max-width: 1170px;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     -webkit-column-gap: 5rem;
@@ -357,7 +376,7 @@ a {
 }
 
 .story {
-  width: 80%;
+  max-width: 1170px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -434,7 +453,7 @@ a {
 
 @media only screen and (min-width: 400px) {
   .what-we-do {
-    width: 80%;
+    max-width: 1170px;
     margin: 6rem 0;
     -ms-grid-columns: (minmax(350px, 1fr))[2];
         grid-template-columns: repeat(2, minmax(350px, 1fr));
