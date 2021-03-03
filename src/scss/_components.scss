@@ -14,3 +14,16 @@
 .green {
     color: var(--color-secondary);
 }
+
+.header {
+    color: var(--color-secondary);
+    font-size: 6rem;
+    line-height: 3.931rem;
+}
+
+@media only screen and (min-width: 400px) {
+    .header {
+        font-size: 9.3rem;
+        line-height: 6.1rem;
+    }
+}
