@@ -19,7 +19,7 @@ export const Story = () => {
         </span>{" "}
         and effective way.
       </p>
-      <Btn />
+      <Btn className={"story__btn"} />
     </div>
   );
 };
