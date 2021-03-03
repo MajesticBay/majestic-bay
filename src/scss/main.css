@@ -240,12 +240,18 @@ a {
 }
 
 .line__text {
-  font-size: 34px;
+  font-size: 1.439rem;
   padding: 0 1rem;
 }
 
 .line__text--bold {
   font-weight: bold;
+}
+
+@media only screen and (min-width: 400px) {
+  .line__text {
+    font-size: 3.4rem;
+  }
 }
 
 .our-team {

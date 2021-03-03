@@ -14,11 +14,19 @@
     }
 
     &__text {
-        font-size: 34px;
+        font-size: 1.439rem;
         padding: 0 1rem;
     }
 
     &__text--bold {
         font-weight: bold;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    .line {
+        &__text {
+            font-size: 3.4rem;
+        }
     }
 }
