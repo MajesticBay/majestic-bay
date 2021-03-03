@@ -141,6 +141,7 @@ a {
   .banner__text {
     max-width: 1170px;
     font-size: 5.5rem;
+    line-height: 6.656rem;
   }
   .banner__btn {
     margin-top: 5.3rem;
