@@ -84,8 +84,9 @@ a {
 }
 
 .btn {
-  padding: .2rem 3rem;
+  padding: 1.2rem 6.8rem;
   font-size: 2rem;
+  font-family: 'Inter';
   font-weight: 900;
   line-height: 30.4px;
   letter-spacing: 0.2em;
