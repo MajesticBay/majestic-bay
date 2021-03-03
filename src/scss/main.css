@@ -112,6 +112,7 @@ a {
 }
 
 .banner__text {
+  max-width: 296px;
   font-size: 3.6rem;
   line-height: 4.357rem;
 }
@@ -268,6 +269,7 @@ a {
 }
 
 .our-team {
+  max-width: 296px;
   margin: 10rem 2rem 4rem 2rem;
 }
 
@@ -373,6 +375,7 @@ a {
 }
 
 .our-works {
+  max-width: 296px;
   display: -ms-grid;
   display: grid;
   gap: 2rem;
@@ -421,7 +424,7 @@ a {
 }
 
 .story {
-  max-width: 1170px;
+  max-width: 296px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -447,6 +450,7 @@ a {
 
 @media only screen and (min-width: 400px) {
   .story {
+    max-width: 1170px;
     margin: 5rem 0;
     line-height: 42.36px;
   }
@@ -490,6 +494,7 @@ a {
 }
 
 .what-we-do {
+  max-width: 296px;
   display: -ms-grid;
   display: grid;
   margin: 1rem 1rem 4rem 1rem;
