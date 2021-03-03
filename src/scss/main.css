@@ -106,18 +106,31 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 8.7rem 0;
+  padding: 5.4rem 0;
   width: 100%;
   background-color: var(--color-secondary);
 }
 
 .banner__text {
-  max-width: 1170px;
-  font-size: 5.5rem;
+  font-size: 3.6rem;
+  line-height: 4.357rem;
 }
 
 .banner__btn {
-  margin-top: 5.3rem;
+  margin-top: 3.5rem;
+}
+
+@media only screen and (min-width: 400px) {
+  .banner {
+    padding: 8.7rem 0;
+  }
+  .banner__text {
+    max-width: 1170px;
+    font-size: 5.5rem;
+  }
+  .banner__btn {
+    margin-top: 5.3rem;
+  }
 }
 
 .footer {
