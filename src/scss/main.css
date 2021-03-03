@@ -459,6 +459,10 @@ a {
   padding: 2rem;
 }
 
+.top-screen__contact-us {
+  text-decoration: underline;
+}
+
 @media only screen and (min-width: 400px) {
   .top-screen__we-code-img {
     width: auto;
