@@ -145,14 +145,21 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 7.3rem;
-  padding-bottom: 12.1rem;
+  padding-top: 5.4rem;
+  padding-bottom: 5.4rem;
 }
 
 .footer__text {
   margin-top: 2.3rem;
   font-size: 1.6rem;
   color: var(--color-secondary);
+}
+
+@media only screen and (min-width: 400px) {
+  .footer {
+    padding-top: 7.3rem;
+    padding-bottom: 12.1rem;
+  }
 }
 
 .header-container {
