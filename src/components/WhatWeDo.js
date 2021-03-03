@@ -1,4 +1,4 @@
-import whatWeDo from "../images/what-we-do.svg";
+// import whatWeDo from "../images/what-we-do.svg";
 
 export const WhatWeDo = () => (
     <div className="what-we-do">
