@@ -191,6 +191,32 @@ a {
   margin-right: auto;
 }
 
+.header-container__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-container__logo {
+  width: 44px;
+  height: auto;
+}
+
+.header-container__contact-us {
+  color: var(--color-secondary);
+  font-size: 1.4rem;
+  line-height: 1.694rem;
+  text-decoration: underline;
+}
+
 .header-description {
   color: var(--color-white);
   font-size: 2.5rem;
@@ -504,10 +530,6 @@ a {
 
 .top-screen__we-code-img {
   display: none;
-}
-
-.top-screen__contact-us {
-  text-decoration: underline;
 }
 
 @media only screen and (min-width: 400px) {
