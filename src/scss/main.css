@@ -234,7 +234,6 @@ a {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  position: relative;
 }
 
 .main-content__bg {
@@ -251,6 +250,13 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media only screen and (min-width: 400px) {
+  .main-content__bg {
+    background-image: url("../images/forest.png");
+    background-repeat: no-repeat;
+  }
 }
 
 .line {
