@@ -534,7 +534,8 @@ a {
 
 @media only screen and (min-width: 400px) {
   .top-screen {
-    background-image: url("../images/mountains.png");
+    background-image: url("/src/images/daniel-leone.png");
+    background-position: center;
     margin-bottom: 18rem;
   }
   .top-screen__macbook {
@@ -544,6 +545,7 @@ a {
     display: none;
   }
   .top-screen__we-code-img {
+    display: inline;
     width: auto;
     padding: 0;
   }
