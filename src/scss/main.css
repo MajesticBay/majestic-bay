@@ -480,8 +480,6 @@ a {
 .top-screen {
   height: 100vh;
   width: 100%;
-  background-image: url("../images/mountains.png");
-  margin-bottom: 18rem;
 }
 
 .top-screen__macbook {
@@ -492,15 +490,20 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 18rem;
-  background-image: url("../images/macbook.png");
+  background-image: url("../images/iphone.png");
   background-position: center top;
+  background-repeat: no-repeat;
 }
 
-.top-screen__we-code-img {
-  width: 100%;
+.top-screen__we-code-img-mobile {
+  width: 256px;
   height: auto;
   margin-top: 18rem;
   padding: 2rem;
+}
+
+.top-screen__we-code-img {
+  display: none;
 }
 
 .top-screen__contact-us {
@@ -508,6 +511,16 @@ a {
 }
 
 @media only screen and (min-width: 400px) {
+  .top-screen {
+    background-image: url("../images/mountains.png");
+    margin-bottom: 18rem;
+  }
+  .top-screen__macbook {
+    background-image: url("../images/macbook.png");
+  }
+  .top-screen__we-code-img-mobile {
+    display: none;
+  }
   .top-screen__we-code-img {
     width: auto;
     padding: 0;
