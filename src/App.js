@@ -1,6 +1,6 @@
-import { Header } from './components/Header';
+// import { Header } from './components/Header';
 import { TopScreen } from './components/TopScreen';
-import { WhatWeDo } from './components/WhatWeDo';
+// import { WhatWeDo } from './components/WhatWeDo';
 import { MovingLines } from './components/MovingLines';
 import { Story } from './components/Story';
 import { OurTeam } from './components/OurTeam';
@@ -12,10 +12,10 @@ import "./scss/main.css";
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <main className="main">
         <TopScreen />
-        <WhatWeDo />
+        {/* <WhatWeDo /> */}
         <MovingLines />
         <div className="main-content">
           <div className="main-content__bg">
