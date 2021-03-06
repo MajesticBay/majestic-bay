@@ -1,48 +1,205 @@
-.top-screen {
-    height: 100vh;
+// .top-screen {
+//     height: 100vh;
+//     width: 100%;
+
+//     &__macbook {
+//         display: flex;
+//         justify-content: center;
+//         // height: 70vh;
+//         margin-top: 18rem;
+//         background-image: url("../images/iphone.png");
+//         background-position: center top;
+//         background-repeat: no-repeat;
+//     }
+
+//     &__we-code-img-mobile {
+//         width: 256px;
+//         height: auto;
+//         margin-top: 18rem;
+//         padding: 2rem;
+//     }
+
+//     &__we-code-img {
+//         display: none;
+//     }
+// }
+
+// @media only screen and (min-width: 400px) {
+//     .top-screen {
+//         // background-image: url("../images/mountains.png");
+//         background-image: url("/src/images/daniel-leone.png");
+//         background-position: center;
+//         margin-bottom: 18rem;
+
+//         &__macbook {
+//             background-image: url("../images/macbook.png");
+//         }
+
+//         &__we-code-img-mobile {
+//             display: none;
+//         }
+
+//         &__we-code-img {
+//             display: inline;
+//             width: auto;
+//             padding: 0;
+//         }
+//     }
+// }
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+  
+  .app-container {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    flex-direction: column;
+    padding-top: 4%;
+  }
+  
+  .macbook-screen {
+    position: relative;
+    max-width: 1300px;
+    width: 94%;
+    margin: 0 auto;
+    height: 85vh;
+  }
+  
+  .macbook-screen > img {
     width: 100%;
-
-    &__macbook {
-        display: flex;
-        justify-content: center;
-        // height: 70vh;
-        margin-top: 18rem;
-        background-image: url("../images/iphone.png");
-        background-position: center top;
-        background-repeat: no-repeat;
+    height: 100%;
+  }
+  
+  .wecode-img-wrap {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9;
+  }
+  
+  .wecode-img-wrap img {
+    max-width: 600px;
+    width: 65%;
+    margin: 0 auto;
+  }
+  
+  .wecode-wrap {
+    background: #0a171b;
+    position: relative;
+    width: 100%;
+    margin-top: -215px;
+    padding-top: 60px;
+  }
+  
+  .wecode-wrap:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: -15em;
+    pointer-events: none;
+    background-image: linear-gradient(to bottom, #0a171b00, #0a171b 100%);
+    width: 100%;
+    height: 15em;
+  }
+  
+  .wecode-text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1000px;
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .wecode-text h1 {
+    color: #24e5ff;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 45px;
+    margin-right: 4%;
+  }
+  
+  .wecode-text p {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: normal;
+  }
+  
+  .mobile,
+  .we-code-mobile {
+    display: none;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .wecode-text {
+      flex-direction: column;
+      width: 90%;
     }
-
-    &__we-code-img-mobile {
-        width: 256px;
-        height: auto;
-        margin-top: 18rem;
-        padding: 2rem;
+  
+    .wecode-text h1 {
+      margin-bottom: 6px;
     }
-
-    &__we-code-img {
-        display: none;
+  
+    .wecode-wrap {
+      padding-top: 0;
     }
-}
-
-@media only screen and (min-width: 400px) {
-    .top-screen {
-        // background-image: url("../images/mountains.png");
-        background-image: url("/src/images/daniel-leone.png");
-        background-position: center;
-        margin-bottom: 18rem;
-
-        &__macbook {
-            background-image: url("../images/macbook.png");
-        }
-
-        &__we-code-img-mobile {
-            display: none;
-        }
-
-        &__we-code-img {
-            display: inline;
-            width: auto;
-            padding: 0;
-        }
+  
+    .macbook-screen {
+      height: 75vh;
     }
-}
+  }
+  
+  @media screen and (max-width: 480px) {
+    .macbook-screen {
+      height: auto;
+    }
+  
+    .macbook-screen > img {
+      width: 100%;
+      height: unset;
+    }
+  
+    .wecode-wrap {
+      margin-top: -60px;
+    }
+    .mobile,
+    .we-code-mobile {
+      display: block;
+    }
+    .desktop,
+    .we-code-desktop {
+      display: none;
+    }
+    .wecode-img-wrap {
+      top: 0;
+    }
+    .wecode-text h1 {
+      margin-right: 0;
+    }
+    .app-container {
+      background-image: none !important;
+      background-color: #0a171b;
+    }
+  }
+  
