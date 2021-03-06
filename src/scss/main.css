@@ -613,7 +613,7 @@ a {
           align-items: center;
   max-width: 1000px;
   width: 70%;
-  margin: 0 auto;
+  margin: 0px auto 6em auto;
 }
 
 .wecode-text h1 {
