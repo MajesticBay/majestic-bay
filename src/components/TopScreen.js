@@ -11,6 +11,7 @@ export const TopScreen = () => {
   const bgStyle = {
     backgroundImage: `url(${BG})`,
   };
+
   return (
     <div className="app-container" style={bgStyle}>
       <div className="app-logo">
@@ -19,8 +20,8 @@ export const TopScreen = () => {
         <a href="http://localhost:3000">contact us</a>
       </div>
       <div className="macbook-screen">
-        <img src={Mac} alt="frame image desktop" className="desktop-screen" />
-        <img src={Iphone} alt="frame image mobile" className="mobile-screen" />
+        <img src={Mac} alt="macbook frame desktop" className="desktop-screen" />
+        <img src={Iphone} alt="phone frame mobile" className="mobile-screen" />
         <div className="wecode-img-wrap">
           <img src={WeCode} alt="we code text desktop" className="we-code-desktop" />
           <img src={WeCodeMobile} alt="we code text mobile" className="we-code-mobile" />
