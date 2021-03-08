@@ -16,7 +16,7 @@ export const TopScreen = () => {
       <div className="app-logo">
         <img src={Logo} alt="" className="desktop-logo" />
         <img src={LogoMobile} alt="" className="mobile-logo" />
-        <a href="#">contact us</a>
+        <a href="http://localhost:3000">contact us</a>
       </div>
       <div className="macbook-screen">
         <img src={Mac} alt="" className="desktop-screen" />
