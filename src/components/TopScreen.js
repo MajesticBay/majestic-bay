@@ -14,16 +14,16 @@ export const TopScreen = () => {
   return (
     <div className="app-container" style={bgStyle}>
       <div className="app-logo">
-        <img src={Logo} alt="" className="desktop-logo" />
-        <img src={LogoMobile} alt="" className="mobile-logo" />
+        <img src={Logo} alt="logo" className="desktop-logo" />
+        <img src={LogoMobile} alt="logo" className="mobile-logo" />
         <a href="http://localhost:3000">contact us</a>
       </div>
       <div className="macbook-screen">
-        <img src={Mac} alt="" className="desktop-screen" />
-        <img src={Iphone} alt="" className="mobile-screen" />
+        <img src={Mac} alt="frame image desktop" className="desktop-screen" />
+        <img src={Iphone} alt="frame image mobile" className="mobile-screen" />
         <div className="wecode-img-wrap">
-          <img src={WeCode} alt="" className="we-code-desktop" />
-          <img src={WeCodeMobile} alt="" className="we-code-mobile" />
+          <img src={WeCode} alt="we code text desktop" className="we-code-desktop" />
+          <img src={WeCodeMobile} alt="we code text mobile" className="we-code-mobile" />
         </div>
       </div>
       <div className="wecode-wrap">
