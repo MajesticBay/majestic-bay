@@ -418,7 +418,6 @@ a {
 }
 
 .our-works {
-  max-width: 450px;
   width: 96%;
   display: -ms-grid;
   display: grid;
