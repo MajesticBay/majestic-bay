@@ -32,6 +32,9 @@ export const Line = ({color, turnSpeed, direction}) => (
     <div className={"line " + (color ? `line${color}` : '')}>
         <Marquee 
           direction={direction}
+          childMargin={0}
+          delay={0}
+          scrollWhen={"always"}
           speed={turnSpeed}>
             {items.map((item, i) => (
                 <span className="line__text" key={i}>
