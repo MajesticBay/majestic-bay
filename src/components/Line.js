@@ -1,3 +1,5 @@
+import Marquee from 'react-double-marquee';
+
 const items = [
     {
         plainText: "AR Design"
@@ -26,13 +28,17 @@ const items = [
     }
 ]
 
-export const Line = ({color}) => (
+export const Line = ({color, turnSpeed, direction}) => (
     <div className={"line " + (color ? `line${color}` : '')}>
-        {items.map((item, i) => (
-            <span className="line__text" key={i}>
-                {item.boldText ? <span className="line__text--bold">{item.boldText}</span> : null}
-                {item.plainText}
-            </span>
-        ))}
+        <Marquee 
+          direction={direction}
+          speed={turnSpeed}>
+            {items.map((item, i) => (
+                <span className="line__text" key={i}>
+                    {item.boldText ? <span className="line__text--bold">{item.boldText}</span> : null}
+                    {item.plainText}
+                </span>
+            ))}
+        </Marquee>
     </div>
 )
