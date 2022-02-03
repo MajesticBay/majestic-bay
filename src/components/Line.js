@@ -36,12 +36,13 @@ export const Line = ({color, turnSpeed, direction}) => (
           delay={0}
           scrollWhen={"always"}
           speed={turnSpeed}>
-            {items.map((item, i) => (
+            {items.concat(items).map((item, i) => (
                 <span className="line__text" key={i}>
                     {item.boldText ? <span className="line__text--bold">{item.boldText}</span> : null}
                     {item.plainText}
                 </span>
             ))}
+
         </Marquee>
     </div>
 )
