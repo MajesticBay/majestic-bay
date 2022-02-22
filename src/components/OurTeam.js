@@ -6,8 +6,8 @@ export const OurTeam = () => {
         {
             name: "Mike",
             position: "APP / UX / AR & Product Designer",
-            about: "хаха",
-            quoteAbout: "хохо",
+            about: "For more than 7 years I have been helping brands develop their business through design",
+            quoteAbout: "Mike — is the best designer on both sides of the ocean (smiley face)",
             img: mike
         },
         {
