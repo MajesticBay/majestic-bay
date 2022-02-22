@@ -2,7 +2,7 @@ import { useState } from 'react';
 import styled from 'styled-components';
 
 const About = styled.p`
-    display: ${({ about }) => (about) ? "block" : "none"};
+    display: ${({ aboutText }) => (aboutText) ? "block" : "none"};
     margin-top: 1.4rem;
     margin-bottom: 3.5rem;
     font-size: 2.4rem;
@@ -11,7 +11,7 @@ const About = styled.p`
 `;
 
 const QuoteAbout = styled.p`
-    display: ${({ about }) => (about) ? "none" : "block"};
+    display: ${({ aboutText }) => (aboutText) ? "none" : "block"};
     margin-top: 1.4rem;
     margin-bottom: 3.5rem;
     font-size: 2.4rem;
@@ -20,7 +20,7 @@ const QuoteAbout = styled.p`
 `;
 
 export const TeamMember = ({person}) => {
-    const [about, setAbout] = useState(true);
+    const [aboutText, setAboutText] = useState(true);
 
     return (
         <div className="member">
@@ -30,16 +30,18 @@ export const TeamMember = ({person}) => {
                 <p className="member__title">{person.position}</p>
             </div>
             {/* <p className="member__about"><span className="green">From Mike:</span>{'\u00A0'}For more than 7 years I have been helping brands develop their business through design.{'\u00A0'}<span className="italic">Visual support of the brand — my task.</span>{'\u00A0'}I like to work on projects from the start and use all my experience to do the job perfectly.</p> */}
-            <About about={about} onMouseEnter={() => setAbout(!about)}>
-                <span className="green">From Mike:</span>{'\u00A0'}For more than 7 years I have been helping brands develop their business through design.{'\u00A0'}<span className="italic">Visual support of the brand — my task.</span>
-                {'\u00A0'}I like to work on projects from the start and use all my experience to do the job perfectly.
+            <About aboutText={aboutText} onMouseEnter={() => setAboutText(!aboutText)}>
+                <span className="green">From {person.name}:</span>
+                {/* {'\u00A0'}For more than 7 years I have been helping brands develop their business through design.{'\u00A0'}<span className="italic">Visual support of the brand — my task.</span>
+                {'\u00A0'}I like to work on projects from the start and use all my experience to do the job perfectly. */}
+                {person.about}
             </About>
             {/* <p className="member__quote-about">Mike — is the best designer on both sides of the ocean :)</p> */}
-            <QuoteAbout about={about} onMouseLeave={() => setAbout(!about)}>
+            <QuoteAbout aboutText={aboutText} onMouseLeave={() => setAboutText(!aboutText)}>
                 {/* Mike — is the best designer on both sides of the ocean (smiley face) */}
                 { person.quoteAbout }
             </QuoteAbout>
-            <a className="member__contact" href="http://localhost:3000/">contact Mike</a>
+            <a className="member__contact" href="http://localhost:3000/">contact {person.name}</a>
         </div>
     )
 }

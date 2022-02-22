@@ -4,13 +4,40 @@ import mike from '../images/mike.png';
 
 export const OurTeam = () => {
     // const [about, setAbout] = useState(true);
-    let personData = {
-        name: "Mike",
-        position: "APP / UX / AR & Product Designer",
-        about: "хаха",
-        quoteAbout: "хохо",
-        img: mike
-    }
+    let peopleData = [
+        {
+            name: "Mike",
+            position: "APP / UX / AR & Product Designer",
+            about: "хаха",
+            quoteAbout: "хохо",
+            img: mike
+        },
+        {
+            name: "Sergey",
+            position: "Fullstack Developer",
+            about: "хаха",
+            quoteAbout: "хохо",
+            img: mike
+        },
+        {
+            name: "Heorhii",
+            position: "Fullstack Developer",
+            about: "хаха",
+            quoteAbout: "хохо",
+            img: mike
+        },
+        {
+            name: "Liliya",
+            position: "Fullstack Developer",
+            about: "хаха",
+            quoteAbout: "хохо",
+            img: mike
+        }
+    ]
+
+    const teamMembers = peopleData.map((person) => (
+        <TeamMember person={person} />
+    ))
 
     return (
         <div className="our-team">
@@ -26,10 +53,7 @@ export const OurTeam = () => {
                 </p>
             </div>
             <div className="our-team__members-container">
-                <TeamMember person={personData} />
-                <TeamMember person={personData} />
-                <TeamMember person={personData} />
-                <TeamMember person={personData}  />
+                { teamMembers }
             </div>
         </div>
     );
