@@ -1,5 +1,5 @@
 import { TeamMember } from "./TeamMember";
-import mike from '../images/mike.png';
+import mike from '../../images/mike.png';
 
 export const OurTeam = () => {
     const peopleData = [

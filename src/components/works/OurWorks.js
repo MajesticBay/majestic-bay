@@ -1,9 +1,9 @@
-import savefit from "../images/save-fit.svg";
-import leafsdeli from "../images/leafsdeli.svg";
-import rpacenter from "../images/rpa.svg";
-import rseven from "../images/r-seven.svg";
-import designinvision from "../images/design-invision.svg";
-import homebuzz from "../images/homebuzz.svg";
+import savefit from "../../images/save-fit.svg";
+import leafsdeli from "../../images/leafsdeli.svg";
+import rpacenter from "../../images/rpa.svg";
+import rseven from "../../images/r-seven.svg";
+import designinvision from "../../images/design-invision.svg";
+import homebuzz from "../../images/homebuzz.svg";
 import { Project } from "./Project";
 
 const projectsData = [
