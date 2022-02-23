@@ -6,8 +6,6 @@ export const OurTeam = () => {
         {
             name: "Mike",
             position: "APP / UX / AR & Product Designer",
-            // about: "\u00A0 For more than 7 years I have been helping brands develop their business through design.\u00A0 <span className=\"italic\">Visual support of the brand — my task.</span> \u00A0I like to work on projects from the start and use all my experience to do the job perfectly.",
-            // about: <span style={{color: 'yellow'}}>This is a <span style={{ fontWeight: 'bold' }}>word</span> in a sentence.</span>,
             about: <span> For more than 7 years I have been helping brands develop their business through design. <span className="italic">Visual support of the brand — my task.</span> I like to work on projects from the start and use all my experience to do the job perfectly.</span>,
             quoteAbout: "Mike — is the best designer on both sides of the ocean (smiley face)",
             img: mike
@@ -16,7 +14,7 @@ export const OurTeam = () => {
             name: "Sergey",
             position: "Fullstack Developer",
             about: "I love breaking the rules and putting them back together in my way to create attractive, innovative designs. I also love creating beautiful and user-friendly sites, creating the perfect balance of form and function.",
-            quoteAbout: "Developer with a human soul.",
+            quoteAbout: "Sergey is a developer with a human soul.",
             img: mike
         },
         {
