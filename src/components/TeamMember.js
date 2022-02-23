@@ -30,7 +30,7 @@ export const TeamMember = ({person: {name, position, about, quoteAbout, img}}) =
                 <p className="member__title">{position}</p>
             </div>
             <About aboutText={showAboutText} onMouseEnter={() => setShowAboutText(!showAboutText)}>
-                <span className="green">From {name}:</span>
+                <span className="green">From {name}: </span>
                 {about}
             </About>
             <QuoteAbout aboutText={showAboutText} onMouseLeave={() => setShowAboutText(!showAboutText)}>
