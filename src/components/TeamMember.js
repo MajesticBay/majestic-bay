@@ -19,31 +19,31 @@ const QuoteAbout = styled.p`
     color: var(--color-secondary);
 `;
 
-export const TeamMember = ({person}) => {
-    const [aboutText, setAboutText] = useState(true);
+export const TeamMember = ({person: {name, position, about, quoteAbout, img}}) => {
+    const [showAboutText, setShowAboutText] = useState(true);
 
     return (
         <div className="member">
             <div className="member__top">
-                <img className="member__emoji" src={person.img} alt="Team member emoji" />
-                <h3 className="member__name">{person.name}</h3>
-                <p className="member__title">{person.position}</p>
+                <img className="member__emoji" src={img} alt="Team member emoji" />
+                <h3 className="member__name">{name}</h3>
+                <p className="member__title">{position}</p>
             </div>
             {/* <p className="member__about"><span className="green">From Mike:</span>{'\u00A0'}For more than 7 years I have been helping brands develop their business through design.{'\u00A0'}<span className="italic">Visual support of the brand — my task.</span>{'\u00A0'}I like to work on projects from the start and use all my experience to do the job perfectly.</p> */}
-            <About aboutText={aboutText} onMouseEnter={() => setAboutText(!aboutText)}>
-                <span className="green">From {person.name}:</span>
+            <About aboutText={showAboutText} onMouseEnter={() => setShowAboutText(!showAboutText)}>
+                <span className="green">From {name}:</span>
                 {/* //////////////////////////////////////// */}
                 {/* {'\u00A0'}For more than 7 years I have been helping brands develop their business through design.{'\u00A0'}<span className="italic">Visual support of the brand — my task.</span>
                 {'\u00A0'}I like to work on projects from the start and use all my experience to do the job perfectly. */}
                 {/* //////////////////////////////////////// */}
-                {person.about}
+                {about}
             </About>
             {/* <p className="member__quote-about">Mike — is the best designer on both sides of the ocean :)</p> */}
-            <QuoteAbout aboutText={aboutText} onMouseLeave={() => setAboutText(!aboutText)}>
+            <QuoteAbout aboutText={showAboutText} onMouseLeave={() => setShowAboutText(!showAboutText)}>
                 {/* Mike — is the best designer on both sides of the ocean (smiley face) */}
-                { person.quoteAbout }
+                { quoteAbout }
             </QuoteAbout>
-            <a className="member__contact" href="http://localhost:3000/">contact {person.name}</a>
+            <a className="member__contact" href="http://localhost:3000/">contact {name}</a>
         </div>
     )
 }
