@@ -14,8 +14,8 @@ const Button = styled.button`
     color: ${({ dark }) => (dark) ? "var(--color-secondary)" : "var(--color-primary)"};
 `;
 
-export const Btn = ({className, dark}) => {
+export const Btn = ({className, dark, text}) => {
     return (
-        <Button dark={dark} className={"btn " + className + " pointer"}>CONTACT US</Button>
+        <Button dark={dark} className={"btn " + className + " pointer"}>{ text }</Button>
     )
 }

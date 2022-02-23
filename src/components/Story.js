@@ -19,7 +19,7 @@ export const Story = () => {
         </span>{" "}
         and effective way.
       </p>
-      <Btn className={"story__btn"} dark={false} />
+      <Btn className={"story__btn"} dark={false} text={"CONTACT US"} />
     </div>
   );
 };
