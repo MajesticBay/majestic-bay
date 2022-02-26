@@ -1,15 +1,15 @@
-import React from "react";
-import BG from "../images/bg.png";
-import Mac from "../images/macbook.png";
-import Iphone from "../images/iphone.png";
-import WeCode from "../images/we-code.png";
-import WeCodeMobile from "../images/wecode-mobile.png";
-import Logo from "../images/logo.png";
-import LogoMobile from "../images/logo-mobile.png";
+import React from 'react';
+import BG from '../images/bg.png';
+import Mac from '../images/macbook.png';
+import Iphone from '../images/iphone.png';
+import WeCode from '../images/we-code.png';
+import WeCodeMobile from '../images/wecode-mobile.png';
+import Logo from '../images/logo.png';
+import LogoMobile from '../images/logo-mobile.png';
 
 export const TopScreen = () => {
   const bgStyle = {
-    backgroundImage: `url(${BG})`,
+    backgroundImage: `url(${BG})`
   };
 
   return (
@@ -33,8 +33,7 @@ export const TopScreen = () => {
             what <br /> we do?
           </h1>
           <p>
-            We successfully solve <br /> business problems through <br /> design
-            and code
+            We successfully solve <br /> business problems through <br /> design and code
           </p>
         </div>
       </div>
