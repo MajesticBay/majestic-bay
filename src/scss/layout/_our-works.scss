@@ -1,51 +1,51 @@
 .our-works {
-    // max-width: 450px;
-    width: 96%;
-    display: grid;
-    grid-template-columns: 1fr;
-    row-gap: 4rem;
-    margin: 2rem auto;
+  // max-width: 450px;
+  width: 96%;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 4rem;
+  margin: 2rem auto;
 
-    &__content {
-        color: var(--color-white);
-        font-size: 2.5rem;
-        width: 300px;
-        margin-top: 2rem;
-    }
+  &__content {
+    color: var(--color-white);
+    font-size: 2.5rem;
+    width: 300px;
+    margin-top: 2rem;
+  }
 }
 
 .project {
-    &__header {
-        margin-top: 1.4rem;
-        color: var(--color-white);
-        font-weight: 500;
-        font-size: 45px;
-        line-height: 65.52%;
-    }
+  &__header {
+    margin-top: 1.4rem;
+    color: var(--color-white);
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 65.52%;
+  }
 
-    &__description {
-        margin-top: 2.2rem;
-        color: var(--color-white);
-        font-size: 24px;
-        line-height: 29px;
-    }
+  &__description {
+    margin-top: 2.2rem;
+    color: var(--color-white);
+    font-size: 24px;
+    line-height: 29px;
+  }
 }
 
 @media only screen and (min-width: 650px) {
-    .our-works {
-        max-width: 1170px;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 3rem;
-        row-gap: 5rem;
-        margin: 2rem 0;
-        padding: 0 15px;
+  .our-works {
+    max-width: 1170px;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+    row-gap: 5rem;
+    margin: 2rem 0;
+    padding: 0 15px;
 
-        &__content {
-            margin-top: 0;
-            margin-left: 1rem;
-            font-size: 3.5rem;
-            line-height: 46px;
-            width: 500px;
-        }
+    &__content {
+      margin-top: 0;
+      margin-left: 1rem;
+      font-size: 3.5rem;
+      line-height: 46px;
+      width: 500px;
     }
+  }
 }

@@ -1,29 +1,29 @@
 .img-fluid {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .pointer {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .italic {
-    font-style: italic;
+  font-style: italic;
 }
 
 .green {
-    color: var(--color-secondary);
+  color: var(--color-secondary);
 }
 
 .header {
-    color: var(--color-secondary);
-    font-size: 6rem;
-    line-height: 3.931rem;
+  color: var(--color-secondary);
+  font-size: 6rem;
+  line-height: 3.931rem;
 }
 
 @media only screen and (min-width: 400px) {
-    .header {
-        font-size: 9.3rem;
-        line-height: 6.1rem;
-    }
+  .header {
+    font-size: 9.3rem;
+    line-height: 6.1rem;
+  }
 }

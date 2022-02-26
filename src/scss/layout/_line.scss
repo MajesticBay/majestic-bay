@@ -1,32 +1,32 @@
 .line {
-    width: 100%;
-    background-color: var(--color-secondary);
-    color: var(--color-primary);
-    overflow: hidden;
-    white-space: nowrap;
-    // overflow-x: auto;
-    overflow-y: hidden;
-    padding: 1rem 0;
+  width: 100%;
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  overflow: hidden;
+  white-space: nowrap;
+  // overflow-x: auto;
+  overflow-y: hidden;
+  padding: 1rem 0;
 
-    &--dark {
-        background-color: var(--color-primary);
-        color: var(--color-secondary);
-    }
+  &--dark {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+  }
 
-    &__text {
-        font-size: 1.439rem;
-        padding: 0 1rem;
-    }
+  &__text {
+    font-size: 1.439rem;
+    padding: 0 1rem;
+  }
 
-    &__text--bold {
-        font-weight: bold;
-    }
+  &__text--bold {
+    font-weight: bold;
+  }
 }
 
 @media only screen and (min-width: 400px) {
-    .line {
-        &__text {
-            font-size: 3.4rem;
-        }
+  .line {
+    &__text {
+      font-size: 3.4rem;
     }
+  }
 }
