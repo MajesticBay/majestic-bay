@@ -2,10 +2,10 @@
   width: 100%;
   background-color: var(--color-secondary);
   color: var(--color-primary);
-  overflow: hidden;
-  white-space: nowrap;
+  // overflow: hidden;
   // overflow-x: auto;
-  overflow-y: hidden;
+  // overflow-y: hidden;
+  white-space: nowrap;
   padding: 1rem 0;
 
   &--dark {
@@ -14,12 +14,18 @@
   }
 
   &__text {
+    // overflow-x: hidden;
+    // overflow-x: hidden;
     font-size: 1.439rem;
     padding: 0 1rem;
   }
 
   &__text--bold {
     font-weight: bold;
+  }
+
+  & > div {
+    overflow-x: initial !important;
   }
 }
 
