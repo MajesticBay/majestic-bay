@@ -2,29 +2,29 @@ import Marquee from 'react-double-marquee';
 
 const items = [
   {
-    plainText: 'AR Design'
+    plainText: 'AR Design',
   },
   {
     boldText: 'React',
-    plainText: 'Native'
+    plainText: 'Native',
   },
   {
-    plainText: 'Efficient Code'
+    plainText: 'Efficient Code',
   },
   {
-    plainText: 'Backend'
+    plainText: 'Backend',
   },
   {
     boldText: 'App',
-    plainText: 'Design'
+    plainText: 'Design',
   },
   {
     boldText: 'Web',
-    plainText: 'Design'
+    plainText: 'Design',
   },
   {
     boldText: 'UX',
-    plainText: 'Research'
+    plainText: 'Research',
   }
 ];
 
