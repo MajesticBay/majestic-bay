@@ -225,6 +225,7 @@ a {
   width: 100%;
   background-color: var(--color-secondary);
   color: var(--color-primary);
+  overflow-x: hidden;
   white-space: nowrap;
   padding: 1rem 0;
 }
