@@ -506,7 +506,6 @@ a {
 .wecode-text {
   display: flex;
   justify-content: space-around;
-  align-items: center;
   max-width: 1000px;
   width: 70%;
   margin: 0px auto 6em auto;
@@ -591,7 +590,21 @@ a {
   }
 
   .wecode-text h1 {
-    margin-right: 0;
+    color: #24e5ff;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .wecode-text p {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
   }
 
   .app-container {
