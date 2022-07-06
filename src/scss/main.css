@@ -235,11 +235,15 @@ a {
   color: var(--color-secondary);
 }
 .line__text {
-  font-size: 1.439rem;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
   padding: 0 1rem;
+  text-align: left;
 }
 .line__text--bold {
-  font-weight: bold;
+  font-weight: 800;
 }
 
 @media only screen and (min-width: 400px) {

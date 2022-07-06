@@ -30,7 +30,7 @@ const items = [
 
 export const Line = ({color, turnSpeed, direction}) => (
     <div className={"line " + (color ? `line${color}` : '')}>
-        <Marquee 
+        <Marquee
           direction={direction}
           childMargin={0}
           delay={0}
