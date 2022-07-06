@@ -398,8 +398,12 @@ a {
   flex-direction: column;
   align-items: center;
   color: var(--color-white);
-  font-size: 35px;
   margin: 3.7rem 0;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 .story--blue {
   color: var(--color-secondary);
@@ -412,6 +416,7 @@ a {
   .story {
     max-width: 1170px;
     margin: 5rem 0;
+    font-size: 35px;
     line-height: 42.36px;
   }
 }
