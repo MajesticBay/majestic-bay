@@ -46,8 +46,7 @@ export const OurTeam = () => {
                     team
                 </h1>
                 <p className="header-description">
-                    We are excellent experts. We are excellent experts. We are excellent
-                    experts.
+                    Our team is able to solve any complex problem, both frontend and backend.
                 </p>
             </div>
             <div className="our-team__members-container">
