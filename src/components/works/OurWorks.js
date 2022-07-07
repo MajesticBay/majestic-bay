@@ -51,8 +51,7 @@ export const OurWorks = () => (
       works
     </h1>
     <p className="header-description">
-      We do many projects and every job we do is a pride for us and our
-      customers
+      Every project we do is a pride for us and our customers.
     </p>
     { projects }
   </div>
