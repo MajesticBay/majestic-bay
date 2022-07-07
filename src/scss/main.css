@@ -366,9 +366,11 @@ a {
 .project__header {
   margin-top: 1.4rem;
   color: var(--color-white);
-  font-weight: 500;
   font-size: 45px;
-  line-height: 65.52%;
+  font-weight: 500;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 .project__description {
   margin-top: 2.2rem;
