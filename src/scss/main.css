@@ -119,14 +119,17 @@ a {
 .banner__text {
   max-width: 296px;
   width: 96%;
-  font-size: 3.6rem;
-  line-height: 4.357rem;
+  font-size: 39px;
+  font-weight: 400;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: center;
 }
 .banner__btn {
   margin-top: 3.5rem;
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 500px) {
   .banner {
     padding: 8.7rem 0;
   }
