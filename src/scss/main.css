@@ -370,6 +370,10 @@ a {
   margin-top: 2rem;
 }
 
+.project {
+  background-color: #11292F;
+  border-radius: 6px;
+}
 .project__header {
   margin-top: 1.4rem;
   color: var(--color-white);

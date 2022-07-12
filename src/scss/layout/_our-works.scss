@@ -15,6 +15,9 @@
 }
 
 .project {
+    background-color: #11292F;
+    border-radius: 6px;
+
     &__header {
         margin-top: 1.4rem;
         color: var(--color-white);
@@ -23,9 +26,6 @@
         line-height: 58px;
         letter-spacing: 0em;
         text-align: left;
-
-
-
     }
 
     &__description {
