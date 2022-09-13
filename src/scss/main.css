@@ -360,11 +360,10 @@ a {
   }
 }
 .our-works {
-  width: 96%;
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 4rem;
-  margin: 2rem auto;
+  margin: 16px;
 }
 .our-works__content {
   color: var(--color-white);
@@ -374,6 +373,7 @@ a {
 }
 
 .project {
+  padding: 30px;
   background-color: #11292F;
   border-radius: 6px;
 }
