@@ -12,6 +12,11 @@ const Button = styled.button`
     border: none;
     background-color: ${({ dark }) => (dark) ? "var(--color-primary)" : "var(--color-secondary)"};
     color: ${({ dark }) => (dark) ? "var(--color-secondary)" : "var(--color-primary)"};
+    &:hover {
+        border: 5px solid ${({ dark }) => (dark) ? "var(--color-primary)" : "var(--color-secondary)"};
+        background-color: transparent;
+        color: ${({ dark }) => (dark) ? "var(--color-primary)" : "var(--color-white)"};
+    }
 `;
 
 export const Btn = ({className, dark, text}) => {
