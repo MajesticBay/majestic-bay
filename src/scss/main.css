@@ -89,6 +89,11 @@ a {
   font-style: italic;
 }
 
+.highlight-text {
+  color: var(--color-secondary);
+  text-decoration: underline;
+}
+
 .green {
   color: var(--color-secondary);
 }
