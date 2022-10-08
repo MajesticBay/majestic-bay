@@ -9,17 +9,17 @@ import { Project } from "./Project";
 const projectsData = [
   {
     name: "safe lit",
-    description: "Application, wich designed for people with spinal cord injuries, hernia or other problems that limit physical activity.",
+    description: <span>Application <span className="highlight-text">designed for people</span> with spinal cord injuries, hernia or other problems that limit physical activity.</span>,
     img: savefit,
   },
   {
     name: "leaf's deli",
-    description: "Web site and identity for the most enjoyable private café in the Seattle Industrial Zone.",
+    description: <span><span className="highlight-text">Web site and identity for</span> the most enjoyable private café in the Seattle Industrial Zone.</span>,
     img: leafsdeli,
   },
   {
     name: "rpa.center",
-    description: "Web site for company that develops and implements robotics process automatization based solutions.",
+    description: <span>Website for a <span className="highlight-text">fast-growing company specializing in robotics process automation</span> based solutions development and implementation.</span>,
     img: rpacenter,
   },
   {
@@ -29,12 +29,12 @@ const projectsData = [
   },
   {
     name: "design invision",
-    description: "Logo, animation and design for designer’s YouTube channel about lifehacks from the design.",
+    description: <span>Logo, animation and design solution for a <span className="highlight-text">professional digital designer's YouTube channel</span>.</span>,
     img: designinvision,
   },
   {
     name: "homebuzz",
-    description: "Corporate style and template of an online store for a construction company or a spare parts store.",
+    description: <span>Corporate style and <span className="highlight-text">template for a large online home improvement retailer</span>.</span>,
     img: homebuzz,
   }
 ]
