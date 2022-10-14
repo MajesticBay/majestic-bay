@@ -73,6 +73,7 @@ a {
 :root {
   --color-primary: #0A171B;
   --color-secondary: #24E5FF;
+  --color-tertiary: #11292F;
   --color-white: #CADBDA;
 }
 
@@ -267,7 +268,7 @@ a {
 }
 .our-team {
   max-width: 296px;
-  margin: 10rem 2rem 4rem 2rem;
+  margin: 10rem 1rem 4rem 2rem;
 }
 .our-team__header-container {
   display: grid;
@@ -281,6 +282,10 @@ a {
   margin-top: 7.9rem;
 }
 
+.member {
+  padding: 2.5rem;
+  border-radius: 6px;
+}
 .member__top {
   display: grid;
 }
@@ -325,13 +330,16 @@ a {
 @media only screen and (min-width: 400px) {
   .our-team {
     max-width: 1170px;
-    margin: 20rem 2rem 4rem 2rem;
+    margin: 20rem 1rem 4rem 1rem;
   }
   .our-team__header-container {
     column-gap: 5rem;
     row-gap: 9rem;
   }
 
+  .member {
+    background-color: #11292F;
+  }
   .member__top {
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "a b" "a c";
@@ -364,6 +372,11 @@ a {
     grid-template-columns: 85px 500px;
   }
 }
+@media only screen and (min-width: 650px) {
+  .member {
+    background-color: transparent;
+  }
+}
 .our-works {
   display: grid;
   grid-template-columns: 1fr;
@@ -379,7 +392,7 @@ a {
 
 .project {
   padding: 30px;
-  background-color: #11292F;
+  background-color: var(--color-tertiary);
   border-radius: 6px;
 }
 .project__header {

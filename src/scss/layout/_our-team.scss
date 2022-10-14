@@ -1,6 +1,6 @@
 .our-team {
     max-width: 296px;
-    margin: 10rem 2rem 4rem 2rem;
+    margin: 10rem 1rem 4rem 2rem;
     // margin: 2rem 4rem;
 
     &__header-container {
@@ -18,6 +18,9 @@
 }
 
 .member {
+    padding: 2.5rem;
+    border-radius: 6px;
+
     &__top {
         display: grid;
     }
@@ -68,7 +71,7 @@
 @media only screen and (min-width: 400px) {
     .our-team {
         max-width: 1170px;
-        margin: 20rem 2rem 4rem 2rem;
+        margin: 20rem 1rem 4rem 1rem;
 
         &__header-container {
             // grid-template-columns: 1fr 1fr;
@@ -78,6 +81,9 @@
     }
 
     .member {
+        // background-color: var(--color-tertiary);
+        background-color: #11292F;
+
         &__top {
             // grid-template-columns: 85px 500px;
             grid-template-rows: 1fr 1fr;
@@ -123,5 +129,11 @@
             // grid-template-areas: 'a b' 'a c';
             // column-gap: 50px;
         }
+    }
+}
+
+@media only screen and (min-width: 650px) {
+    .member {
+        background-color: transparent;
     }
 }
