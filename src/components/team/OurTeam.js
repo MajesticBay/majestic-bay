@@ -1,5 +1,6 @@
 import { TeamMember } from "./TeamMember";
 import mike from '../../images/mike.png';
+import sergey from '../../images/sergey.png';
 
 export const OurTeam = () => {
     const peopleData = [
@@ -15,7 +16,7 @@ export const OurTeam = () => {
             position: "Front+Back End",
             about: "I love breaking the rules and putting them back together in my way to create attractive, innovative designs. I also love creating beautiful and user-friendly sites, creating the perfect balance of form and function.",
             quoteAbout: "Sergey is a developer with a human soul.",
-            img: mike
+            img: sergey
         },
         {
             name: "Heorhii",
