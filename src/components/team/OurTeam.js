@@ -22,7 +22,7 @@ export const OurTeam = () => {
         {
             name: "Mike",
             position: "APP / UX / AR & Product Designer",
-            about: <span>For more than 7 years I have been helping brands develop their business through design. <span className="italic">Visual support of the brand — my task.</span> I like to work on projects from the start and use all my experience to do the job perfectly.</span>,
+            about: <span>For more than 20 years I've been helping brands grow their businesses through design. I love making products with great usability, accessibility, interaction and emotion. <span className="highlight-text">I like & ready to create a new user experiences.</span> I teach design at GeekBrains and Netology online universities.</span>,
             quoteAbout: "Mike — is the best designer on both sides of the ocean (smiley face)",
             img: mike
         },
