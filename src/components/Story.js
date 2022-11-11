@@ -15,9 +15,9 @@ export const Story = () => {
       <p>
         And most importantly —{" "}
         <span className="story--blue">
-          we do not forget to solve the client's problem in the most optimal
-        </span>{" "}
-        and effective way.
+          we do not forget to solve the client's problem in the most optimal and effective way.
+        </span>
+        {/* {" "} and effective way. */}
       </p>
       <Btn className={"story__btn"} dark={false} text={"CONTACT US"} />
     </div>
