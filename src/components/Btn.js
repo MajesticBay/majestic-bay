@@ -9,7 +9,7 @@ const Button = styled.button`
     letter-spacing: 0.2em;
     text-align: center;
     white-space: nowrap;
-    border: none;
+    border: 5px solid transparent;
     background-color: ${({ dark }) => (dark) ? "var(--color-primary)" : "var(--color-secondary)"};
     color: ${({ dark }) => (dark) ? "var(--color-secondary)" : "var(--color-primary)"};
     &:hover {
