@@ -1,10 +1,10 @@
 .our-works {
     // max-width: 450px;
-    width: 96%;
+    // width: 96%;
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 4rem;
-    margin: 2rem auto;
+    margin: 16px;
 
     &__content {
         color: var(--color-white);
@@ -15,12 +15,18 @@
 }
 
 .project {
+    padding: 30px;
+    background-color: var(--color-tertiary);
+    border-radius: 6px;
+
     &__header {
         margin-top: 1.4rem;
         color: var(--color-white);
-        font-weight: 500;
         font-size: 45px;
-        line-height: 65.52%;
+        font-weight: 500;
+        line-height: 58px;
+        letter-spacing: 0em;
+        text-align: left;
     }
 
     &__description {

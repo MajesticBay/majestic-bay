@@ -11,14 +11,22 @@
     font-style: italic;
 }
 
+.highlight-text {
+    color: var(--color-secondary);
+    text-decoration: underline;
+}
+
 .green {
     color: var(--color-secondary);
 }
 
 .header {
     color: var(--color-secondary);
-    font-size: 6rem;
-    line-height: 3.931rem;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 
 @media only screen and (min-width: 400px) {
