@@ -1,3 +1,4 @@
+import React from "react";
 import Marquee from 'react-double-marquee';
 
 const items = [
@@ -28,7 +29,13 @@ const items = [
     }
 ]
 
-export const Line = ({color, turnSpeed, direction}) => (
+interface LineProps {
+    color?: string;
+    turnSpeed?: number;
+    direction?: "left" | "right";
+}
+
+export const Line: React.FC<LineProps> = ({color, turnSpeed, direction}) => (
     <div className={"line " + (color ? `line${color}` : '')}>
         <Marquee 
           direction={direction}

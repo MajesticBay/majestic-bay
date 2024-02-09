@@ -1,6 +1,7 @@
+import React from "react";
 import { Line } from "./Line";
 
-export const MovingLines = () => {
+export const MovingLines: React.FC = () => {
 
   return (
     <>

@@ -1,6 +1,5 @@
-// import { Header } from './components/Header';
+import React from 'react';
 import { TopScreen } from './components/TopScreen';
-// import { WhatWeDo } from './components/WhatWeDo';
 import { MovingLines } from './components/MovingLines';
 import { Story } from './components/Story';
 import { OurTeam } from './components/OurTeam';
@@ -9,13 +8,11 @@ import { Banner } from './components/Banner';
 import { Footer } from './components/Footer';
 import "./css/main.css";
 
-function App() {
+const App: React.FC = () => {
   return (
     <>
-      {/* <Header /> */}
       <main className="main">
         <TopScreen />
-        {/* <WhatWeDo /> */}
         <MovingLines />
         <div className="main-content">
           <div className="main-content__bg">
