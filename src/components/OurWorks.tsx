@@ -1,3 +1,4 @@
+import React from "react";
 import savefit from "../images/save-fit.svg";
 import leafsdeli from "../images/leafsdeli.svg";
 import rpacenter from "../images/rpa.svg";
@@ -5,7 +6,7 @@ import rseven from "../images/r-seven.svg";
 import designinvision from "../images/design-invision.svg";
 import homebuzz from "../images/homebuzz.svg";
 
-export const OurWorks = () => (
+export const OurWorks: React.FC = () => (
   <div className="our-works">
     <h1 className="header">
       our
@@ -52,7 +53,7 @@ export const OurWorks = () => (
       <img src={designinvision} alt="design invision website" />
       <p className="project__header">design invision</p>
       <p className="project__description">
-        Logo, animation and design for designer’s YouTube channel about
+        Logo, animation and design for designer's YouTube channel about
         lifehacks from the design.
       </p>
     </div>
