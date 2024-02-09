@@ -7,7 +7,7 @@ import { OurTeam } from './components/OurTeam';
 import { OurWorks } from './components/OurWorks';
 import { Banner } from './components/Banner';
 import { Footer } from './components/Footer';
-import "./scss/main.css";
+import "./css/main.css";
 
 function App() {
   return (
