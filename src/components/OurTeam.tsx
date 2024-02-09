@@ -1,9 +1,12 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import mike from '../images/mike.png';
 
+interface AboutProps {
+    about: boolean;
+}
 
-const About = styled.p`
+const About = styled.p<AboutProps>`
     display: ${({ about }) => (about) ? "block" : "none"};
     margin-top: 1.4rem;
     margin-bottom: 3.5rem;
@@ -12,7 +15,7 @@ const About = styled.p`
     color: var(--color-white);
 `;
 
-const QuoteAbout = styled.p`
+const QuoteAbout = styled.p<AboutProps>`
     display: ${({ about }) => (about) ? "none" : "block"};
     margin-top: 1.4rem;
     margin-bottom: 3.5rem;
@@ -21,19 +24,19 @@ const QuoteAbout = styled.p`
     color: var(--color-secondary);
 `;
 
-export const OurTeam = () => {
+export const OurTeam: React.FC = () => {
     const [about, setAbout] = useState(true);
 
     return (
         <div className="our-team">
             <div className="our-team__header-container">
-                <h1 className="header">our<br/>team</h1>
+                <h1 className="header">our<br />team</h1>
                 <p className="header-description">We are excellent experts. We are excellent experts. We are excellent experts.</p>
             </div>
             <div className="our-team__members-container">
                 <div className="member">
                     <div className="member__top">
-                        <img className="member__emoji" src={mike} alt="Mike emoji"/>
+                        <img className="member__emoji" src={mike} alt="Mike emoji" />
                         <h3 className="member__name">Mike</h3>
                         <p className="member__title">APP / UX / AR & Product Designer</p>
                     </div>
@@ -50,7 +53,7 @@ export const OurTeam = () => {
                 </div>
                 <div className="member">
                     <div className="member__top">
-                        <img className="member__emoji" src={mike} alt="Mike emoji"/>
+                        <img className="member__emoji" src={mike} alt="Mike emoji" />
                         <h3 className="member__name">Sergey</h3>
                         <p className="member__title">Front / End / Back & React Native Developer</p>
                     </div>

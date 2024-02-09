@@ -7,7 +7,7 @@ import WeCodeMobile from "../images/wecode-mobile.png";
 import Logo from "../images/logo.png";
 import LogoMobile from "../images/logo-mobile.png";
 
-export const TopScreen = () => {
+export const TopScreen: React.FC = () => {
   const bgStyle = {
     backgroundImage: `url(${BG})`,
   };

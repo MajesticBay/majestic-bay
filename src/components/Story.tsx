@@ -1,6 +1,7 @@
+import React from 'react';
 import { Btn } from './Btn';
 
-export const Story = () => {
+export const Story: React.FC = () => {
   return (
     <div className="story">
       <p>
