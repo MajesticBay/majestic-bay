@@ -1,4 +1,4 @@
-import viteLogo from '/vite.svg'
+import majesticLogo from './assets/logo.png'
 import './css/main.css'
 
 function App() {
@@ -6,12 +6,14 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+        <a href="https://majesticbay.net/" target="_blank">
+          <img src={majesticLogo} className="logo" alt="Majestic Bay logo" />
         </a>
       </div>
-      <h1>We always solve the client's problem in</h1>
-      <h1>most optimal and effective way.</h1>
+      <div className="sign">
+        <h1>We always solve the client's problem</h1>
+        <h1>in  most optimal and effective way.</h1>
+      </div>
       <div className="card">
         <p>
           CONTACT US
