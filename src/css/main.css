@@ -113,7 +113,7 @@ a:hover {
 
 .logo {
   height: 10em;
-  padding: 1.5em;
+  padding: 1em;
   will-change: filter;
   transition: filter 300ms;
   margin-bottom: 50px;
@@ -124,5 +124,24 @@ a:hover {
 }
 
 .card {
+  display: flex;
+  justify-content: center;
   margin-top: 50px;
+}
+.card p {
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 5px;
+  color: #FFFFFF;
+  font-family: "Inter";
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.footer {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  font-size: 16px;
+  transform: translateX(-50%);
 }
