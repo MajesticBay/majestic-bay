@@ -15,9 +15,9 @@ function App() {
         <h1>in  most optimal and effective way.</h1>
       </div>
       <div className="card">
-        <p>
+        <a href="mailto:contact@majesticbay.net" className="contact-link">
           CONTACT US
-        </p>
+        </a>
       </div>
       <p className="footer">
         © 2018—2024 mb
