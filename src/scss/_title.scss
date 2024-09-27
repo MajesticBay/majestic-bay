@@ -78,3 +78,15 @@ a:hover {
     font-size: 16px;
     transform: translateX(-50%);
 }
+
+@media (min-width: $breakpoint-xs) and (max-width: $breakpoint-md) {
+    h1 {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: $breakpoint-xs) {
+    h1 {
+        font-size: 25px;
+    }
+}
