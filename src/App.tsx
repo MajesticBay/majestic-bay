@@ -20,7 +20,7 @@ function App() {
         </a>
       </div>
       <p className="footer">
-        © 2018—2024 mb
+        © 2018—{new Date().getFullYear()} mb
       </p>
     </>
   )
